@@ -13,6 +13,7 @@ class MemoViewController: UIViewController, UITextFieldDelegate
     
     @IBOutlet var titleTextField: UITextField!
     @IBOutlet var contentTextView: UITextView!
+    var number :Int!
     
     var saveData: UserDefaults = UserDefaults.standard
 
